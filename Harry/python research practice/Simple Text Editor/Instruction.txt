@@ -1,0 +1,1 @@
+Make sure to use latest Tkinter verison and python 3.7+. I made this project using VS Code
