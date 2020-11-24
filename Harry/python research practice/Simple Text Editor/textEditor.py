@@ -42,7 +42,7 @@ window.rowconfigure(0, minsize=800, weight=1)
 window.columnconfigure(1, minsize=800, weight=1)
 
 text_edit = tk.Text(window, bg="light cyan", insertbackground="blue")
-fr_buttons = tk.Frame(window, relief=tk.RAISED, bd=2, bg="plum1")
+fr_buttons = tk.Frame(window, relief=tk.RAISED, bd=2, bg="grey8")
 btn_open = tk.Button(fr_buttons, text="Open", command=open_file)
 btn_save = tk.Button(fr_buttons, text="Save", command=save_file)
 btn_exit = tk.Button(fr_buttons, text="Exit", command=exit_app)
