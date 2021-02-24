@@ -46,44 +46,6 @@ def export_arrays_to_csv(self):
         print(datetime.now(), "[LOG] Exported all array data to employees.csv succesfully")
 
 
-# Unused for now
-def search_employees():
-    print(datetime.now(), "[LOG] Searching for employee")
-
-
-# Check if database exists (UNUSED)
-def check_if_database_exists(self):
-    database_file = Path("employees.db")
-
-    if database_file.is_file():
-        self.database_insert()
-    else:
-        self.create_database()
-
-            
-# If database doesn't exists, create one (UNUSED)
-def create_database(self):
-    print(datetime.now(), "[LOG] Creating database for the first time.")
-        
-    connect = sqlite3.connect('employees.db')
-    c = connect.cursor()
-    c.execute("""
-    CREATE TABLE Employees (
-    id_number text,
-    first_name text,
-    last_name text,
-    company_name text,
-    house_number text,
-    city text,
-    county text,
-    zip_code text,
-    email text
-    )""")
-
-    connect.commit()
-    connect.close()
-
-
 # Admin Page when user logs in as 'admin'
 
 class AdminPage:
