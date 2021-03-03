@@ -512,11 +512,6 @@ class UserPage:
         self.btnLogOut.place(relx=0.767, rely=0.222, height=34, width=127)
         self.btnLogOut.configure(command = lambda: self.logout())
         self.btnLogOut.configure(text='''Logout''')
-        
-        self.btnPlaceholder = tk.Button()
-        self.btnPlaceholder.place(relx=0.767, rely=0.356, height=34, width=127)
-        self.btnPlaceholder.configure(text='''Placeholder''')
-
 
     # Functions
 
