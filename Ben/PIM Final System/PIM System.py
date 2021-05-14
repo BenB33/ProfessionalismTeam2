@@ -262,8 +262,8 @@ class AdminPage:
                     tk.messagebox.showinfo(title="Employee Info", message=showinfo)
                     
                 else:
-                    print(datetime.now(), "[LOG] No record selected to delete")
-                    tk.messagebox.showwarning(title="ERROR: Empty", message="Please select a record to delete!")
+                    print(datetime.now(), "[LOG] No record selected to view")
+                    tk.messagebox.showwarning(title="ERROR: Empty", message="Please select a record to view!")
 
         
 
@@ -573,7 +573,7 @@ class UserPage:
                     
                 else:
                     print(datetime.now(), "[LOG] No record selected to delete")
-                    tk.messagebox.showwarning(title="ERROR: Empty", message="Please select a record to delete!")
+                    tk.messagebox.showwarning(title="ERROR: Empty", message="Please select a record to view!")
 
         
 
